@@ -100,7 +100,12 @@ p + ul li {
   -webkit-backdrop-filter: blur(0.5px);
   border-radius: 10px;
 }
-
+/* Contact page */
+@media (max-width: 768px) {
+.location{
+  height: 20rem;
+}
+}
 /* error body  */
 .certificate_body {
   min-height: 80vh;

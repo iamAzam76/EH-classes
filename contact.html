@@ -86,28 +86,29 @@
   </section>
   <!-- contact section -->
   <section class="contact_body md:flex md:justify-evenly p-5 ">
-    <section class="bg-gray-100 md:mx-3 border border-gray-300">
+    <section class="bg-gray-100 md:mx-3 border border-gray-300 xl:w-1/4 md:w-1/2">
       <div class="max-w-screen-lg px-4  py-12 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1  md:grid-cols-3">
-          <div class="rounded-lg bg-white p-8 shadow-lg sm:col-span-3 lg:p-12">
-            <form action="#" class="space-y-2">
+          <div class="rounded-lg bg-white p-8 shadow-lg sm:col-span-3 lg:p-12 w-full">
+            <form action="https://api.web3forms.com/submit" class="space-y-2" method="POST">
+              <input type="hidden" name="access_key" value="0aa76925-f468-44c9-8504-20577178f1e3">
               <div>
                 <label class="sr-only" for="name">Name</label>
                 <input class="w-full rounded-lg border border-gray-200 p-3 text-sm" placeholder="Name" type="text"
-                  id="name" />
+                  id="name" name="name" required/>
               </div>
 
               <div class="space-y-2">
                 <div>
                   <label class="sr-only" for="email">Email</label>
                   <input class="w-full rounded-lg border border-gray-200 p-3 text-sm" placeholder="Email address"
-                    type="email" id="email" />
+                    type="email" id="email" name="email" required/>
                 </div>
 
                 <div>
                   <label class="sr-only" for="phone">Phone</label>
                   <input class="w-full rounded-lg border border-gray-200 p-3 text-sm" placeholder="Phone Number"
-                    type="tel" id="phone" />
+                    type="tel" id="phone" name="Phone no" required/>
                 </div>
               </div>
 
@@ -115,7 +116,7 @@
                 <label class="sr-only" for="message">Message</label>
 
                 <textarea class="w-full rounded-lg border border-gray-200 p-3 text-sm" placeholder="Message" rows="8"
-                  id="message"></textarea>
+                  id="message" name="message"></textarea>
               </div>
 
               <div class="mt-4">
@@ -131,7 +132,7 @@
     </section>
     <div class="location border max-w-screen-md border-gray-300 my-2 md:my-0 " style=" width: 100%; ">
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.453437653197!2d77.09738737627426!3d28.5561436757066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1b85fc2a2d89%3A0xbef376182c43ed9d!2sIndira%20Gandhi%20International%20Airport!5e0!3m2!1sen!2sin!4v1724048315334!5m2!1sen!2sin"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2485.5042681557115!2d-0.3668171!3d51.467257599999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760cd6cee8bf61%3A0xb5de6dc4d5b190c5!2sibis%20budget%20London%20Hounslow!5e0!3m2!1sen!2sin!4v1732462462028!5m2!1sen!2sin"
         style="border:0;" height="100%" width="100%" loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
@@ -156,7 +157,7 @@
           <path
             d="m21.555 8.168-9-6a1 1 0 0 0-1.109 0l-9 6A.995.995 0 0 0 2.004 9H2v11a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9h-.004a.997.997 0 0 0-.441-.832zM20 12.7 12 17l-8-4.3v-2.403l8 4.299 8-4.299V12.7z">
           </path>
-        </svg><a href="mailto:contact."> contact.infinityhacks@gmail.com</a> </p>
+        </svg><a href="mailto:contact@trainforcyber.com"> contact@trainforcyber.com</a> </p>
 
 
 
